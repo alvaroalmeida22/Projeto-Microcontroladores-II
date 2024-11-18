@@ -364,5 +364,7 @@ void loop() {
         alertaAmarelo = false;
         // Desliga o LED verde
         digitalWrite(LED_VERDE, LOW);
+        analogWrite(LED_AMARELO, LOW);
+        analogWrite(LED_VERMELHO, LOW);
     }
 }
